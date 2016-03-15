@@ -8,3 +8,8 @@ contract SimpleStorage {
         return storedData;
     }
 }
+
+// Think of uint storedData as slot in database
+// Owning contract can get and set the value
+
+// allows anyone to store a single number that is accessible by anyone and writable by anyone
